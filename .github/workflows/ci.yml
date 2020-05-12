@@ -1,4 +1,4 @@
-name: ci
+name: Unit Tests Pipeline
 
 on:
   pull_request:
@@ -23,6 +23,3 @@ jobs:
 
     - name: Check tests
       run: yarn test --coverage
-
-    - name: Check linting
-      run: yarn lint
