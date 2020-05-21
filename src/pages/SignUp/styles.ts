@@ -28,28 +28,6 @@ export const Content = styled.div`
 
   animation: ${appearFromRight} 1s;
 
-  form {
-    margin: 80px 0;
-    width: 340px;
-    text-align: center;
-
-    h1 {
-      margin-bottom: 24px;
-    }
-
-    a {
-      color: ${props => props.theme.darkBlue};
-      display: block;
-      margin-top: 24px;
-      text-decoration: none;
-      transition: color 0.2s;
-
-      &:hover {
-        color: ${shade(0.2, Theme.darkBlue)};
-      }
-    }
-  }
-
   > a {
     color: ${props => props.theme.darkBlue};
     display: block;
